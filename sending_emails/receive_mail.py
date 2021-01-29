@@ -11,7 +11,7 @@ conn = imapclient.IMAPClient('imap.gmail.com',ssl=True)
 
 # login to email -- returns byte object which tells if authentication is success
 
-conn.login('paudelaayus@gmail.com','uirkzesmlbnhcvup')
+conn.login('paudelaayus@gmail.com','---add your own Applicaion key-----')
 
 # lets select a folder (INBOX most of the time, readonly=True unless you are going to delete email)
 # can check spam , outbox, draft etc
